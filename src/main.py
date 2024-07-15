@@ -1,4 +1,4 @@
-from sample import Sample
+from urlshortener import UrlShortener
 
 if __name__ == '__main__':
-    print(Sample().x)
+    print(UrlShortener().get_short_url())
